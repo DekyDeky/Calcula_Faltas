@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/html.css">
+    <link rel="stylesheet" href="styles/podeFaltar.css">
+    <link rel="stylesheet" href="styles/nPodeFaltar.css">
+</head>
+<body>
+    <section class="calcFalta" id="homeFalta">
+        <h1 class="title">Calculador de Faltas</h1>
+        <button class="button" id="quatro-aulas_botao">4 Aulas p/ Semana</button>
+        <button class="button" id="duas-aulas_botao">2 Aulas p/ Semana</button>
+        <h3 class="explication">Insira o total de faltas (dias)</h3>
+        <input class="inputFalta" id="input_Falta" type="number">
+        <button class="button" id="calc_botao" onclick="calcFaltas()">Calcular</button>
+        <h4 class="deky">Criado por Deky ✨</h4>
+    </section>
+
+    <section class="podeFaltar" id="pode_Faltar_tela">
+        <img class="podeFaltar_Img" id="podeImg" src="imgs/podeFaltar.jpg" alt="Jesus Cristo falando para você faltar, filho.">
+        <img class="nPodeFaltar_Img" id="nPodeImg" src="imgs/nPodeFaltar.jpg" alt="Musculo correndo atrás de um esqueleto cansado mandando ele ir estudar">
+        <h3 class="infoFalta" id="total_Aulas"></h3>
+        <h3 class="infoFalta" id="total_Faltas"></h3>
+        <h3 class="infoFalta" id="freq_Min"></h3>
+        <h3 class="infoFalta" id="max_Faltas"></h3>
+        <h3 class="infoFalta" id="quants_Dias_Restantes"></h3>
+        <button id="return_button" class="button">Retornar</button>
+        <h4 class="deky">Criado por Deky ✨</h4>
+    </section>
+
+    <script src="javaScript/constantes.js"></script>
+    <script src="javaScript/calcFaltas.js"></script>
+</body>
+</html>

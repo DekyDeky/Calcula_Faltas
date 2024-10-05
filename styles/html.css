@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+html {
+    background-color: purple;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+
+    height: 100vh;
+}
+
+.calcFalta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+}
+
+.button {
+    border: none;
+    background-color: plum;
+
+    width: 80%;
+    margin-top: 15px;
+
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.explication {
+    margin-top: 15px;
+
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.inputFalta {
+    width: 80%;
+    
+    font-size: 25px;
+    text-align: center;
+}
+
+.deky {
+    color: white;
+    margin-top: 15px;
+}

@@ -1,0 +1,26 @@
+.podeFaltar {
+    height: 100vh;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.podeFaltar_Img{
+    display: none;
+    border-radius: 25px;
+    width: 300px;
+}
+
+.nPodeFaltar_Img{
+    display: none;
+    width: 350px;
+    border-radius: 25px;
+}
+
+.infoFalta {
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+}
